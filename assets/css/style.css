@@ -457,6 +457,52 @@ nav{
     }
 }
 
+.panelRightSideRectangle{
+    height: 2px;
+    background-color: hsla(0, 0%, 100%, 0.2005);
+    width: 224px;
+    margin-top: 42px;
+}
+
+.qoute{
+    padding-top: 43px;
+    width: 229px;
+
+    >p{
+        color: hsla(0, 0%, 100%, 1);
+        font-style: italic;
+        font-size: 18px;
+        line-height: 24px;
+        letter-spacing: -0.009px;
+        font-weight: 400;
+        margin-bottom: 17px;
+
+        >span{
+            font-weight: 700;
+        }
+    }
+
+    >.bitmap{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+
+        >p{
+            color: hsla(0, 0%, 100%, 1);
+            font-size: 16px;
+            letter-spacing: -0.008px;
+            font-weight: 700;
+            line-height: normal;
+            font-style: normal;
+        }
+
+
+        >img{
+            border-radius: 50%;
+        }
+    }
+}
+
 .bottomText{
     color: hsla(200, 6%, 41%, 1);
     font-size: 14px;
@@ -473,3 +519,4 @@ nav{
         color: hsla(200, 49%, 38%, 1);
     }
 }
+
